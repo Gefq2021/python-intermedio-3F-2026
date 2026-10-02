@@ -15,6 +15,7 @@ Este repositorio contiene las actividades prácticas desarrolladas durante el cu
 | Práctica | Tema |
 |-----------|------|
 | Practica 1 | Conjuntos |
+| Practica 2 | Excepciones |
 
 ## Entregas
 
@@ -49,3 +50,25 @@ Dados un conjunto, A, escribe un programa en Python que imprima si el conjunto e
 Dados un conjunto, A, escribe un programa en Python que imprima el número de elementos del conjunto.
 
 **Archivo:** `ejercicio_5.py`
+
+### Practica 2 - Excepciones
+
+#### Ejercicio 1:
+
+Escribe un programa que intente dividir dos números. Si el segundo número es cero, captura la excepción ZeroDivisionError y muestra un mensaje de error al usuario.
+
+#### Ejercicio 2:
+
+Escribe un programa que intente sumar un número y una cadena. Si se produce un error de tipo, captura la excepción TypeError y muestra un mensaje de error al usuario.
+
+#### Ejercicio 3:
+
+Escribe un programa que intente acceder a una clave que no existe en un diccionario. Si se produce una excepción KeyError, captura la excepción y muestra un mensaje de error al usuario.
+
+#### Ejercicio 4:
+
+Escribe un programa que intente abrir un archivo que no existe. Si se produce una excepción FileNotFoundError, captura la excepción y muestra un mensaje de error al usuario. Sin embargo, también intenta crear el archivo si no existe.
+
+#### Ejercicio 5:
+
+Escribe un programa que intente dividir dos números. Si el segundo número es cero, captura la excepción ZeroDivisionError. Si el primer número es un número no válido, captura la excepción ValueError. En cualquier caso, muestra un mensaje de error al usuario.
