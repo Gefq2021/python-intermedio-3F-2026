@@ -16,6 +16,7 @@ Este repositorio contiene las actividades prácticas desarrolladas durante el cu
 |-----------|------|
 | Practica 1 | Conjuntos |
 | Practica 2 | Excepciones |
+| Practica 3 | Operadores Ternarios |
 
 ## Entregas
 
