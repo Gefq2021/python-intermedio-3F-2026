@@ -72,3 +72,35 @@ Escribe un programa que intente abrir un archivo que no existe. Si se produce un
 #### Ejercicio 5:
 
 Escribe un programa que intente dividir dos números. Si el segundo número es cero, captura la excepción ZeroDivisionError. Si el primer número es un número no válido, captura la excepción ValueError. En cualquier caso, muestra un mensaje de error al usuario.
+
+### Práctica 3 - Operadores Ternarios
+
+#### Ejercicio 1:
+
+Calcular el mayor de dos números ingresados por teclado usando un operador ternario.
+
+**Archivo:** `./practica_3/ejercicio_1.py`
+
+#### Ejercicio 2
+
+Buscar una palabra en una lista ingresada por teclado usando args y un operador ternario.
+
+**Archivo:** `./practica_3/ejercicio_2.py`
+
+#### Ejercicio 3
+
+Determinar si un número es par o impar.
+
+**Archivo:** `./practica_3/ejercicio_3.py`
+
+#### Ejercicio 4
+
+Calcular el promedio de una lista de números usando args y un operador ternario.
+
+**Archivo:** `./practica_3/ejercicio_4.py`
+
+#### Ejercicio 5
+
+Imprimir un mensaje de error si no se pasan suficientes argumentos.
+
+**Archivo:** `./practica_3/ejercicio_5.py`
