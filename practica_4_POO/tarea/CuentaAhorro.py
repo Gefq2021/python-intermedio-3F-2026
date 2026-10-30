@@ -1,8 +1,8 @@
-import CuentaBancaria
+from tarea.CuentaBancaria import CuentaBancaria
 
 class CuentaAhorro(CuentaBancaria):
-    def __init__(self, titular, cbu, saldo):
-        super().__init__(titular, cbu, saldo)
+    def __init__(self, titular, cbu, saldo_inicial):
+        super().__init__(titular, cbu, saldo_inicial)
 
     def extraer(self, monto):
         if monto <= 0:

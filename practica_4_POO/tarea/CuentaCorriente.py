@@ -1,9 +1,15 @@
-import CuentaBancaria
+from tarea.CuentaBancaria import CuentaBancaria
 
 class CuentaCorriente(CuentaBancaria):
-    def __init__(self, titular, cbu, saldo, limite_descubierto = 500):
-        super().__init__(titular, cbu, saldo)
+    def __init__(self, titular, cbu, saldo_inicial, limite_descubierto = 500):
+        super().__init__(titular, cbu, saldo_inicial)
         self.limite_descubierto = limite_descubierto
+
+    @CuentaBancaria.saldo.setter
+    def saldo(self, valor):
+        if valor < -self.limite_descubierto:
+            raise ValueError("El saldo no puede ser menor que el límite de descubierto.")
+        self._saldo = valor
 
     def extraer(self, monto):
         if monto <= 0:

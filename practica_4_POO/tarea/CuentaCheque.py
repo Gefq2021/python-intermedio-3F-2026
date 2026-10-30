@@ -1,8 +1,8 @@
-import CuentaBancaria
+from tarea.CuentaBancaria import CuentaBancaria
 
 class CuentaCheque(CuentaBancaria):
-    def __init__(self, titular, cbu, saldo, costo_emision = 50):
-        super().__init__(titular, cbu, saldo)
+    def __init__(self, titular, cbu, saldo_inicial, costo_emision = 50):
+        super().__init__(titular, cbu, saldo_inicial)
         self.costo_emision = costo_emision
 
     def extraer(self, monto):
