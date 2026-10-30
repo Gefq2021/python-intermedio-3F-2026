@@ -17,6 +17,7 @@ Este repositorio contiene las actividades prácticas desarrolladas durante el cu
 | Practica 1 | Conjuntos |
 | Practica 2 | Excepciones |
 | Practica 3 | Operadores Ternarios |
+| Practica 4 | POO |
 
 ## Entregas
 
@@ -105,3 +106,16 @@ Calcular el promedio de una lista de números usando args y un operador ternario
 Imprimir un mensaje de error si no se pasan suficientes argumentos.
 
 **Archivo:** `./practica_3/ejercicio_5.py`
+
+### Práctica 4 - POO
+
+#### Desafio Integrador: Sistema Bancario POO
+
+1. Clase Base Abstracta: CuentaBancaria (ABC)
+    - Atributos protegidos: _titular, _cbu, _saldo
+    - Decoradores: @property y  @saldo.setter con validaciones
+    - Método concreto: depositar(monto) y __str__()
+2. Subclases que heredan y aplican Polimorfismo:
+    - CuentaAhorro: extraer() solo si hay saldo suficiente. Agregar aplicar_interes() con tasa fija (ej: 0.1% -> 0.001).
+    - CuentaCorriente: agrega limite_descuento. Permite extraer hasta agotar el saldo + descubierto.
+    - CuentaCheque: cobra una comision administrativa fija por cada extracción exitosa.
